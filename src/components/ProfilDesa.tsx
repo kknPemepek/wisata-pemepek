@@ -1,9 +1,10 @@
+import profilDesa from '../assets/profilDesa.jpeg'
 const ProfilDesa = () => {
   return (
     <div className="grid sm:grid-cols-1 md:grid-cols-1 md:space-y-5 lg:grid-cols-2 lg:space-y-0 lg:space-x-5">
       <div>
         <img
-          src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          src={profilDesa}
           alt=""
         />
       </div>

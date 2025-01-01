@@ -14,15 +14,15 @@ const Navbar = () => {
   const itemNav = [
     {
       item: "Beranda",
-      to: "/",
+      to: "/wisata-pemepek",
     },
     {
       item: "Tentang ",
-      to: "/about",
+      to: "/wisata-pemepek/tentang",
     },
     {
       item: "FAQ",
-      to: "/faq",
+      to: "/wisata-pemepek/faq",
     },
   ];
 
@@ -65,7 +65,7 @@ const Navbar = () => {
       }`}
     >
       {/* Logo */}
-      <div onClick={() => navigate("/")} className="cursor-pointer">
+      <div onClick={() => navigate("/wisata-pemepek")} className="cursor-pointer">
         <img className="w-14 bg-red-300" src={logo} alt="" />
       </div>
 

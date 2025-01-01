@@ -3,8 +3,8 @@ import { IoLogoFacebook } from "react-icons/io";
 
 const Footer = () => {
   const sosmed = [
-    { id: 1, title: "Pindah Alam" },
-    { id: 2, title: "Lembah Datu" },
+    { id: 1, title: "Pindah Alam",ig:'https://www.instagram.com/pindahalam_official?igsh=MXRnbmxvcTZ4MzFhbw==' },
+    { id: 2, title: "Lembah Datu",ig:'https://www.instagram.com/lembah.datu.official?igsh=dWM4YnczaTczZjUz' },
     { id: 3, title: "Wisata Klicung" },
   ];
 
@@ -22,6 +22,7 @@ const Footer = () => {
             <p className="text-base mb-3">{item.title}</p>
             <div className="flex justify-center items-center gap-4">
               <FaInstagram
+              onClick={()=>window.open(item.ig,'_blank')}
                 size={20}
                 className="hover:text-pink-500 transition duration-200 cursor-pointer"
               />

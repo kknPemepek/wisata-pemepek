@@ -1,15 +1,39 @@
 import { useState, useEffect } from "react";
-import asset1 from "../assets/asset1.jpg";
 
 const Carousels = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const slides = [
-    { id: 0, src: asset1, alt: "Slide 1" },
-    { id: 1, src: "/docs/images/carousel/carousel-2.svg", alt: "Slide 2" },
-    { id: 2, src: "/docs/images/carousel/carousel-3.svg", alt: "Slide 3" },
-    { id: 3, src: "/docs/images/carousel/carousel-4.svg", alt: "Slide 4" },
-    { id: 4, src: "/docs/images/carousel/carousel-5.svg", alt: "Slide 5" },
+    {
+      id: 0,
+      src: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735713459/koes-nadi-WuhG3sU8MPg-unsplash_nmmt6g.jpg", // Beautiful mountain landscape
+      alt: "Slide 1",
+    },
+    {
+      id: 1,
+      src: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735715527/steven-kamenar-MMJx78V7xS8-unsplash_aabycx.jpg", // Ocean view
+      alt: "Slide 2",
+    },
+    {
+      id: 2,
+      src: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735713902/dave-hoefler-a3e7yEtQxJs-unsplash_zspcms.jpg", // Forest trail
+      alt: "Slide 3",
+    },
+    {
+      id: 3,
+      src: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735713814/joshua-sukoff-nPfU-Uen0mk-unsplash_tvkkkl.jpg", // Desert landscape
+      alt: "Slide 4",
+    },
+    {
+      id: 4,
+      src: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735716104/everett-mcintire-BPCsppbNRMI-unsplash_mjtagp.jpg", // Sunset over water
+      alt: "Slide 5",
+    },
+    {
+      id: 5,
+      src: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735714860/rural-explorer-oWS_3i0Y5sI-unsplash_qalvma.jpg", // Sunset over water
+      alt: "Slide 6",
+    },
   ];
 
   const goToSlide = (index: number) => {
@@ -28,7 +52,7 @@ const Carousels = () => {
   return (
     <div className="relative w-full bg-gray-100">
       {/* Carousel Wrapper */}
-      <div className="relative h-64 overflow-hidden  sm:h-96 lg:h-[500px]">
+      <div className="relative h-48 sm:h-64 md:h-80 lg:h-[500px] overflow-hidden">
         {slides.map((slide, index) => (
           <div
             key={slide.id}
@@ -38,7 +62,7 @@ const Carousels = () => {
           >
             <img
               src={slide.src}
-              className="absolute block w-full h-full object-cover"
+              className="absolute block w-full h-full  object-cover"
               alt={slide.alt}
             />
           </div>

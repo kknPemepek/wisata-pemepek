@@ -1,5 +1,5 @@
 import { MdArrowForward } from "react-icons/md";
-import pindahAlam from "../assets/pindahAlam.jpg";
+
 import { useNavigate } from "react-router-dom";
 const Card = () => {
   const navigate = useNavigate();
@@ -8,25 +8,25 @@ const Card = () => {
       id: 1,
       title: "Pindah Alam",
       description:
-        "Pindah Alam adalah destinasi wisata yang menyuguhkan keindahan alam, udara segar, dan ketenangan, sempurna untuk melepas penat dan menikmati suasana asri. 🌿",
+        "Pindah Alam adalah destinasi wisata yang menyuguhkan keindahan alam, udara segar, dan ketenangan, sempurna untuk melepas penat dan menikmati suasana asri",
       image: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735473192/PA1_cfxpvu.jpg",
-      navigate: "/pindah-alam",
+      navigate: "/wisata-pemepek/pindah-alam",
     },
     {
       id: 2,
       title: "Lembah Datu",
       description:
-        "Lembah Datu adalah destinasi wisata alam yang menawarkan panorama pegunungan asri, udara sejuk, dan suasana tenang, cocok untuk bersantai bersama keluarga.",
-      image: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735473620/LD1_d1vjgg.jpg",
-      navigate: "/lembah-datu",
+        "Lembah Datu menyajikan pemandangan pegunungan indah, udara sejuk, dan suasana tenang, menjadikannya tempat yang sempurna untuk bersantai bersama keluarga.",
+      image: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735709492/ld2_ktorxb.jpg",
+      navigate: "/wisata-pemepek/lembah-datu",
     },
     {
       id: 3,
       title: "Wisata Kelicung",
       description:
-        "Pindah Alam adalah destinasi wisata yang menyuguhkan keindahan alam, udara segar, dan ketenangan, sempurna untuk melepas penat dan menikmati suasana asri. 🌿",
-      image: pindahAlam,
-      navigate: "/wisata-kelicung",
+        "Wisata Kelicung menyajikan pemandangan alam menakjubkan, hutan hijau sejuk, serta agrowisata, menawarkan pengalaman budaya dan tradisi lokal yang otentik",
+      image: 'https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735715527/steven-kamenar-MMJx78V7xS8-unsplash_aabycx.jpg',
+      navigate: "/wisata-pemepek/wisata-kelicung",
     },
   ];
   return (
