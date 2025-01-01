@@ -14,7 +14,7 @@ const Navbar = () => {
   const itemNav = [
     {
       item: "Beranda",
-      to: "/wisata-pemepek",
+      to: "/wisata-pemepek/",
     },
     {
       item: "Tentang ",
