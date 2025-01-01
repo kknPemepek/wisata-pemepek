@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { SlLogin } from "react-icons/sl";
 import { useState, useEffect } from "react";
+import logo from "../assets/LogoKKN.jpeg";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -12,11 +13,11 @@ const Navbar = () => {
 
   const itemNav = [
     {
-      item: "Home",
+      item: "Beranda",
       to: "/",
     },
     {
-      item: "About ",
+      item: "Tentang ",
       to: "/about",
     },
     {
@@ -59,16 +60,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex items-center justify-between shadow-sm p-6 md:p-6 fixed w-full bg-white z-50 transition-transform duration-300 ${
+      className={`flex items-center justify-between shadow-sm h-20 px-6 md:px-6 fixed w-full z-50 transition-transform duration-300 bg-white ${
         isHidden ? "-translate-y-full" : "translate-y-0"
       }`}
     >
       {/* Logo */}
-      <div
-        onClick={() => navigate("/")}
-        className="cursor-pointer text-xl font-bold"
-      >
-        Logo
+      <div onClick={() => navigate("/")} className="cursor-pointer">
+        <img className="w-14 bg-red-300" src={logo} alt="" />
       </div>
 
       {/* Desktop Navigation */}
@@ -111,41 +109,40 @@ const Navbar = () => {
           <RxHamburgerMenu className="text-xl hover:text-green-400 hover:scale-110 transition-transform" />
         </button>
         <div
-  className={`absolute right-0 mt-2 bg-white border rounded-lg shadow-md w-48 transition-all duration-300 ease-in-out transform ${
-    menuOpen
-      ? "scale-100 opacity-100 translate-y-0 pointer-events-auto"
-      : "scale-90 opacity-0 -translate-y-2 pointer-events-none"
-  }`}
->
-  <ul>
-    {itemNav.map((item, index) => (
-      <li
-        onClick={() => {
-          navigate(item.to);
-          setMenuOpen(false);
-        }}
-        className={`cursor-pointer px-4 py-2 hover:bg-green-50 hover:text-green-400 transition-colors duration-300 ease-in-out ${
-          path === item.to ? "text-green-400" : "text-gray-700"
-        }`}
-        key={index}
-      >
-        <p className="hover:scale-110 transition-transform duration-300 ease-in-out text-sm md:text-base">
-          {item.item}
-        </p>
-      </li>
-    ))}
-    <li className="cursor-pointer px-4 py-2 hover:bg-green-50 hover:text-green-400 transition-colors duration-300 ease-in-out">
-      <div
-        className="flex items-center space-x-2 cursor-pointer hover:text-green-400 hover:scale-110 transition-transform duration-300 ease-in-out"
-        onClick={() => navigate("/login")}
-      >
-        <SlLogin className="text-sm md:text-base" />
-        <p className="text-sm md:text-base">Login</p>
-      </div>
-    </li>
-  </ul>
-</div>
-
+          className={`absolute right-0 mt-2 bg-white border rounded-lg shadow-md w-48 transition-all duration-300 ease-in-out transform ${
+            menuOpen
+              ? "scale-100 opacity-100 translate-y-0 pointer-events-auto"
+              : "scale-90 opacity-0 -translate-y-2 pointer-events-none"
+          }`}
+        >
+          <ul>
+            {itemNav.map((item, index) => (
+              <li
+                onClick={() => {
+                  navigate(item.to);
+                  setMenuOpen(false);
+                }}
+                className={`cursor-pointer px-4 py-2 hover:bg-green-50 hover:text-green-400 transition-colors duration-300 ease-in-out ${
+                  path === item.to ? "text-green-400" : "text-gray-700"
+                }`}
+                key={index}
+              >
+                <p className="hover:scale-110 transition-transform duration-300 ease-in-out text-sm md:text-base">
+                  {item.item}
+                </p>
+              </li>
+            ))}
+            <li className="cursor-pointer px-4 py-2 hover:bg-green-50 hover:text-green-400 transition-colors duration-300 ease-in-out">
+              <div
+                className="flex items-center space-x-2 cursor-pointer hover:text-green-400 hover:scale-110 transition-transform duration-300 ease-in-out"
+                onClick={() => navigate("/login")}
+              >
+                <SlLogin className="text-sm md:text-base" />
+                <p className="text-sm md:text-base">Login</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

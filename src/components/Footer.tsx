@@ -1,4 +1,4 @@
-import { FaInstagram, FaYoutube } from "react-icons/fa6";
+import { FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa6";
 import { IoLogoFacebook } from "react-icons/io";
 
 const Footer = () => {
@@ -12,30 +12,30 @@ const Footer = () => {
     <footer className="bg-green-100 text-base-content rounded p-6 sm:p-10">
       {/* Heading */}
       <div className="text-center pb-6">
-        <p className="text-base font-semibold">
-          Social Media
-        </p>
+        <p className="text-base font-semibold">Social Media</p>
       </div>
 
       {/* Social Media Links */}
       <div className="grid gap-6 sm:gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 pb-6">
         {sosmed.map((item) => (
           <div key={item.id} className="text-center">
-            <p className=" text-base  mb-3">
-              {item.title}
-            </p>
+            <p className="text-base mb-3">{item.title}</p>
             <div className="flex justify-center items-center gap-4">
               <FaInstagram
                 size={20}
-                className="text-pink-500 hover:text-pink-700 transition duration-200 cursor-pointer"
+                className="hover:text-pink-500 transition duration-200 cursor-pointer"
               />
               <IoLogoFacebook
                 size={20}
-                className="text-blue-600 hover:text-blue-800 transition duration-200 cursor-pointer"
+                className="hover:text-blue-600 transition duration-200 cursor-pointer"
               />
               <FaYoutube
                 size={20}
-                className="text-red-500 hover:text-red-700 transition duration-200 cursor-pointer"
+                className="hover:text-red-500 transition duration-200 cursor-pointer"
+              />
+              <FaWhatsapp
+                size={20}
+                className="hover:text-green-500 transition duration-200 cursor-pointer"
               />
             </div>
           </div>
