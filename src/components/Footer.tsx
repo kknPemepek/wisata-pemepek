@@ -12,19 +12,19 @@ const Footer = () => {
     <footer className="bg-green-100 text-base-content rounded p-6 sm:p-10">
       {/* Heading */}
       <div className="text-center pb-6">
-        <p className="text-base font-semibold">Social Media</p>
+        <p className="text-base md:text-lg font-semibold">Social Media</p>
       </div>
 
       {/* Social Media Links */}
       <div className="grid gap-6 sm:gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 pb-6">
         {sosmed.map((item) => (
           <div key={item.id} className="text-center">
-            <p className="text-base mb-3">{item.title}</p>
+            <p className="text-sm md:text-base mb-3">{item.title}</p>
             <div className="flex justify-center items-center gap-4">
               <FaInstagram
               onClick={()=>window.open(item.ig,'_blank')}
                 size={20}
-                className="hover:text-pink-500 transition duration-200 cursor-pointer"
+                className="hover:text-pink-500 transition duration-200 cursor-pointer "
               />
               <IoLogoFacebook
                 size={20}
@@ -45,7 +45,7 @@ const Footer = () => {
 
       {/* Footer Text */}
       <div className="text-center pt-6 border-t border-gray-300">
-        <p className="text-base">
+        <p className="text-sm md:text-base">
           Copyright © {new Date().getFullYear()} - All rights reserved by KKN
           Desa Pemepek
         </p>

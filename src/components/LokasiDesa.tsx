@@ -23,7 +23,7 @@ const LokasiDesa: React.FC = () => {
         <h1 className="text-xl md:text-2xl font-semibold mb-3 text-green-800">
           Lokasi Desa
         </h1>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 leading-relaxed text-sm md:text-base">
           Desa Pemepek terletak di Kecamatan Pringgarata, Kabupaten Lombok
           Tengah, Provinsi Nusa Tenggara Barat (NTB). Secara geografis, desa ini
           berada pada koordinat -8.603998 lintang selatan dan 116.236373 bujur

@@ -12,7 +12,7 @@ const ProfilDesa = () => {
         <h1 className="text-xl md:text-2xl font-semibold mb-3 text-green-800">
           Desa Pemepek
         </h1>
-        <p className="  lg:h-auto overflow-auto text-gray-600">
+        <p className="  lg:h-auto overflow-auto text-gray-600 text-sm md:text-base">
           Desa Pemepek, yang terletak di Kecamatan Pringgarata, Kabupaten Lombok
           Tengah, dikelilingi oleh alam yang asri dengan persawahan hijau dan
           pegunungan. Mayoritas penduduknya bekerja di bidang pertanian,

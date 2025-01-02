@@ -9,7 +9,8 @@ const Card = () => {
       title: "Pindah Alam",
       description:
         "Pindah Alam adalah destinasi wisata yang menyuguhkan keindahan alam, udara segar, dan ketenangan, sempurna untuk melepas penat dan menikmati suasana asri",
-      image: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735473192/PA1_cfxpvu.jpg",
+      image:
+        "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735473192/PA1_cfxpvu.jpg",
       navigate: "/wisata-pemepek/pindah-alam",
     },
     {
@@ -17,15 +18,17 @@ const Card = () => {
       title: "Lembah Datu",
       description:
         "Lembah Datu menyajikan pemandangan pegunungan indah, udara sejuk, dan suasana tenang, menjadikannya tempat yang sempurna untuk bersantai bersama keluarga.",
-      image: "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735709492/ld2_ktorxb.jpg",
+      image:
+        "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735709492/ld2_ktorxb.jpg",
       navigate: "/wisata-pemepek/lembah-datu",
     },
     {
       id: 3,
       title: "Wisata Kelicung",
       description:
-        "Wisata Kelicung menyajikan pemandangan alam menakjubkan, hutan hijau sejuk, serta agrowisata, menawarkan pengalaman budaya dan tradisi lokal yang otentik",
-      image: 'https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735715527/steven-kamenar-MMJx78V7xS8-unsplash_aabycx.jpg',
+        "Wisata Kelicung menyajikan pemandangan alam menakjubkan, hutan hijau sejuk, serta agrowisata, menawarkan pengalaman budaya dan tradisi lokal yang otentik dan memikat hati",
+      image:
+        "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735715527/steven-kamenar-MMJx78V7xS8-unsplash_aabycx.jpg",
       navigate: "/wisata-pemepek/wisata-kelicung",
     },
   ];
@@ -45,10 +48,10 @@ const Card = () => {
               />
             </figure>
             <div className="card-body p-6">
-              <h2 className="card-title text-xl font-bold text-green-800 mb-2">
+              <h2 className="card-title text-lg md:text-xl font-bold text-green-800 mb-2">
                 {item.title}
               </h2>
-              <p className="text-gray-600 text-sm md:text-base">
+              <p className="text-gray-600 text-sm md:text-base sm:h-[140px] sm:leading-relaxed  lg:h-[160px]">
                 {item.description}
               </p>
               <div className="flex justify-center pt-10">
