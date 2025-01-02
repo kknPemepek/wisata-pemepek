@@ -9,5 +9,9 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      const redirectTo = window.location.pathname.replace('/wisata-pemepek', '');
+      window.location.replace('/wisata-pemepek/index.html#' + redirectTo);
+    </script>
   </body>
 </html>
