@@ -12,74 +12,128 @@ const faqData: FAQItem[] = [
       "Desa Pemepek terletak di Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
   },
   {
-    question: "Apa yang bisa dilakukan di Wisata Pindah Alam?",
+    question: "Di mana lokasi Wisata Kelicung?",
     answer:
-      "Wisata Pindah Alam adalah camping ground yang menawarkan pemandangan alam yang indah. Pengunjung bisa berkemah, menikmati udara segar, dan melakukan kegiatan outdoor seperti hiking.",
+      "Wisata Kelicung terletak di Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
   },
   {
-    question: "Bagaimana cara menuju Wisata Pindah Alam?",
+    question: "Apa yang bisa dilakukan di Wisata Kelicung?",
     answer:
-      "Anda bisa menuju Wisata Pindah Alam dengan berkendara sekitar 30 menit dari pusat Desa Pemepek, menggunakan kendaraan yang sesuai dengan medan.",
+      "Wisata Kelicung adalah tempat yang cocok untuk menikmati keindahan alam, belajar tentang ekosistem, dan mengenal flora serta fauna setempat.",
+  },
+  {
+    question: "Bagaimana cara menuju Wisata Kelicung?",
+    answer:
+      "Anda bisa menuju Wisata Kelicung dengan kendaraan pribadi atau angkutan lokal dari pusat Desa Pemepek dengan waktu tempuh sekitar 20 menit.",
+  },
+  {
+    question: "Apakah Wisata Kelicung cocok untuk keluarga?",
+    answer:
+      "Ya, Wisata Kelicung sangat cocok untuk keluarga, terutama yang ingin menikmati suasana tenang dan belajar bersama tentang alam.",
+  },
+  {
+    question: "Apakah Wisata Kelicung menyediakan fasilitas toilet?",
+    answer:
+      "Ya, Wisata Kelicung menyediakan fasilitas toilet umum untuk kenyamanan pengunjung.",
+  },
+  {
+    question: "Kapan waktu terbaik untuk mengunjungi Wisata Kelicung?",
+    answer:
+      "Waktu terbaik untuk mengunjungi Wisata Kelicung adalah pada musim kemarau, antara bulan April hingga Oktober, agar perjalanan lebih nyaman.",
+  },
+  {
+    question: "Apakah ada warung makan di Wisata Kelicung?",
+    answer:
+      "Ya, terdapat beberapa warung makan yang menyajikan makanan lokal untuk para pengunjung Wisata Kelicung.",
+  },
+  {
+    question: "Apakah Wisata Kelicung menyediakan fasilitas edukasi?",
+    answer:
+      "Ya, Wisata Kelicung memiliki program edukasi seperti pengenalan ekosistem sungai dan pentingnya pelestarian lingkungan.",
+  },
+  
+  // Camping Ground Lembah Datu
+  {
+    question: "Di mana lokasi Camping Ground Lembah Datu?",
+    answer:
+      "Camping Ground Lembah Datu berada di kawasan alam Kabupaten Lombok Tengah, dikelilingi pemandangan yang asri.",
   },
   {
     question: "Apa yang bisa dilakukan di Camping Ground Lembah Datu?",
     answer:
-      "Camping Ground Lembah Datu adalah tempat yang ideal untuk berkemah. Selain itu, pengunjung dapat menikmati trekking, berfoto dengan latar belakang pemandangan alam, dan menikmati suasana yang tenang.",
+      "Pengunjung dapat berkemah, trekking, menikmati suasana alam, serta berfoto di lokasi yang instagramable.",
   },
   {
-    question: "Apakah ada biaya masuk untuk Wisata Pindah Alam?",
+    question: "Bagaimana cara menuju Camping Ground Lembah Datu?",
     answer:
-      "Ya, Wisata Pindah Alam memiliki tiket masuk yang terjangkau, dan pengunjung juga harus membayar biaya parkir di lokasi camping ground.",
+      "Anda bisa menuju Camping Ground Lembah Datu dengan kendaraan pribadi, sekitar 25 menit dari pusat Desa Pemepek.",
   },
   {
-    question: "Apakah camping ground di Lembah Datu menyediakan fasilitas tenda?",
+    question: "Apakah Camping Ground Lembah Datu menyediakan fasilitas tenda?",
     answer:
-      "Ya, Camping Ground Lembah Datu menyediakan fasilitas tenda yang dapat disewa oleh pengunjung yang tidak membawa tenda sendiri.",
+      "Ya, tenda tersedia untuk disewa oleh pengunjung yang ingin berkemah tanpa membawa perlengkapan sendiri.",
   },
   {
-    question: "Apakah Camping Ground Pindah Alam menyediakan fasilitas tenda?",
+    question: "Apakah ada biaya masuk di Camping Ground Lembah Datu?",
     answer:
-      "Ya, Camping Ground Pindah Alam menyediakan tenda yang sudah dipersiapkan untuk pengunjung yang ingin berkemah tanpa perlu membawa tenda sendiri.",
+      "Ya, ada biaya masuk yang terjangkau dan biaya tambahan untuk menyewa fasilitas tenda atau parkir kendaraan.",
   },
   {
-    question: "Apa waktu terbaik untuk mengunjungi Camping Ground Pindah Alam?",
+    question: "Kapan waktu terbaik untuk mengunjungi Camping Ground Lembah Datu?",
     answer:
-      "Waktu terbaik untuk berkemah di Pindah Alam adalah saat musim kemarau, antara bulan April hingga Oktober, karena cuaca lebih stabil dan jalur trekking lebih mudah dilalui.",
+      "Waktu terbaik untuk berkemah adalah saat musim kemarau, antara bulan April hingga Oktober, untuk pengalaman yang lebih nyaman.",
   },
   {
-    question: "Apakah ada fasilitas penginapan di sekitar Camping Ground Lembah Datu?",
+    question: "Apakah ada tempat makan di sekitar Camping Ground Lembah Datu?",
     answer:
-      "Di sekitar Camping Ground Lembah Datu tidak ada penginapan permanen, tetapi Anda bisa berkemah di lokasi atau mencari homestay di sekitar Kabupaten Lombok Tengah.",
+      "Ya, terdapat warung makan di sekitar area yang menyediakan makanan lokal khas Lombok.",
   },
   {
-    question: "Bagaimana kondisi jalur menuju Camping Ground Pindah Alam?",
+    question: "Apakah Camping Ground Lembah Datu cocok untuk anak-anak?",
     answer:
-      "Jalur menuju Camping Ground Pindah Alam cukup menantang dengan jalan berbatu dan sedikit curam, sehingga disarankan menggunakan kendaraan yang tepat.",
+      "Ya, tempat ini cocok untuk anak-anak yang ingin merasakan pengalaman berkemah dan belajar tentang alam.",
+  },
+
+  // Camping Ground Pindah Alam
+  {
+    question: "Di mana lokasi Camping Ground Pindah Alam?",
+    answer:
+      "Camping Ground Pindah Alam berada di kawasan Desa Pemepek, Kabupaten Lombok Tengah.",
   },
   {
-    question: "Apakah ada tempat makan di sekitar Camping Ground Pindah Alam?",
+    question: "Apa yang bisa dilakukan di Camping Ground Pindah Alam?",
     answer:
-      "Di sekitar Camping Ground Pindah Alam, terdapat beberapa warung makan yang menyajikan makanan lokal khas Lombok seperti nasi ayam dan sate bulayak.",
+      "Pengunjung dapat berkemah, trekking, dan menikmati pemandangan alam serta udara segar.",
   },
   {
-    question: "Apakah Camping Ground Lembah Datu cocok untuk keluarga?",
+    question: "Bagaimana cara menuju Camping Ground Pindah Alam?",
     answer:
-      "Ya, Camping Ground Lembah Datu cocok untuk keluarga yang ingin menikmati alam terbuka, melakukan kegiatan berkemah, dan berinteraksi dengan alam.",
+      "Jalur menuju lokasi dapat ditempuh sekitar 30 menit dari pusat Desa Pemepek dengan kendaraan pribadi.",
   },
   {
     question: "Apakah Camping Ground Pindah Alam menyediakan fasilitas toilet?",
     answer:
-      "Ya, Camping Ground Pindah Alam menyediakan fasilitas toilet umum untuk pengunjung yang berkemah.",
+      "Ya, fasilitas toilet tersedia untuk kenyamanan pengunjung yang berkemah.",
   },
   {
-    question: "Apakah Wisata Kelicung cocok untuk anak-anak?",
+    question: "Apakah Camping Ground Pindah Alam menyediakan fasilitas tenda?",
     answer:
-      "Ya, Wisata Kelicung cocok untuk anak-anak, terutama yang suka bermain air atau menikmati keindahan alam yang tenang.",
+      "Ya, Camping Ground Pindah Alam menyediakan tenda untuk pengunjung yang ingin berkemah tanpa membawa perlengkapan sendiri.",
   },
   {
-    question: "Apakah ada fasilitas toilet di Wisata Kelicung?",
+    question: "Kapan waktu terbaik untuk mengunjungi Camping Ground Pindah Alam?",
     answer:
-      "Wisata Kelicung memiliki fasilitas dasar seperti tempat parkir dan toilet umum untuk pengunjung.",
+      "Musim kemarau, antara bulan April hingga Oktober, adalah waktu terbaik untuk berkemah di Camping Ground Pindah Alam.",
+  },
+  {
+    question: "Apakah ada biaya masuk untuk Camping Ground Pindah Alam?",
+    answer:
+      "Ya, terdapat biaya masuk yang terjangkau serta tambahan biaya untuk menyewa fasilitas seperti tenda atau parkir.",
+  },
+  {
+    question: "Apakah Camping Ground Pindah Alam cocok untuk keluarga?",
+    answer:
+      "Ya, tempat ini cocok untuk keluarga yang ingin menikmati suasana alam dan melakukan aktivitas berkemah bersama.",
   },
   {
     question: "Bagaimana cuaca di Desa Pemepek?",
@@ -87,8 +141,6 @@ const faqData: FAQItem[] = [
       "Desa Pemepek memiliki iklim tropis dengan musim hujan antara bulan November hingga Maret dan musim kemarau antara bulan April hingga Oktober.",
   },
 ];
-
-
 
 const FaqSections = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -108,40 +160,50 @@ const FaqSections = () => {
           {faqData.map((item, index) => (
             <div
               key={index}
-              className="faq-item border border-gray-300 rounded-md overflow-hidden"
+              className={`faq-item border border-gray-300 rounded-md overflow-hidden ${
+                activeIndex === index ? "border-green-400" : ""
+              }`}
             >
               <button
                 className={`w-full flex justify-between space-x-5 h-20 items-center p-4 bg-white focus:outline-none transition-all duration-500 ${
-                  activeIndex === index ? "border-blue-500" : ""
+                  activeIndex === index ? "" : ""
                 }`}
                 onClick={() => toggleFAQ(index)}
               >
-                <span className="text-gray-800 font-semibold">
+                <span className="text-gray-800 w-full font-semibold text-sm md:text-base ">
                   {item.question}
                 </span>
-                <svg
-                  className={`w-6 h-6 text-gray-600 transition-transform transform ${
-                    activeIndex === index ? "rotate-180 duration-500 text-green-600" : "duration-500"
-                  }`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 15l7-7 7 7"
-                  ></path>
-                </svg>
+                <span>
+                  <svg
+                    className={`w-4 h-4 text-gray-600 transition-transform transform text-sm md:text-base ${
+                      activeIndex === index
+                        ? "rotate-180 duration-500 text-green-600"
+                        : "duration-500"
+                    }`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 15l7-7 7 7"
+                    ></path>
+                  </svg>
+                </span>
               </button>
               <div
                 className={`faq-content bg-gray-50 overflow-hidden transition-all duration-500 ${
-                  activeIndex === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                  activeIndex === index
+                    ? "max-h-96 opacity-100"
+                    : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="p-4 text-gray-600">{item.answer}</p>
+                <p className="p-4 text-gray-600 text-sm md:text-base">
+                  {item.answer}
+                </p>
               </div>
             </div>
           ))}
