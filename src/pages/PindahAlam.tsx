@@ -16,7 +16,7 @@ const PindahAlam = () => {
       </div>
       <div>
         <footer className="">
-          {/* <Footer /> */}
+          <Footer />
         </footer>
       </div>
     </div>

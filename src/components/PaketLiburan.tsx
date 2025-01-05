@@ -1,5 +1,5 @@
 import { useState } from "react";
-import contohpaket from "../assets/paketContoh.jpeg";
+
 import a from "../assets/pindahAlam/A.jpeg";
 import b from "../assets/pindahAlam/B.jpeg";
 import c from "../assets/pindahAlam/C.jpeg";
@@ -31,35 +31,35 @@ const PaketLiburan: React.FC = () => {
       id: 1,
       title: "Paket A",
       description:
-      "Nikmati pengalaman camping sederhana di tepi danau yang tenang. Cocok untuk kamu yang mencari liburan hemat dengan suasana alam yang menenangkan.",
+        "Nikmati pengalaman camping sederhana di tepi danau yang tenang. Cocok untuk kamu yang mencari liburan hemat dengan suasana alam yang menenangkan.",
       image: a,
     },
     {
       id: 2,
       title: "Paket B",
       description:
-      "Rasakan sensasi camping di gunung dengan perjalanan pendakian yang menantang. Ideal untuk petualang yang ingin menikmati keindahan alam dari ketinggian.",
+        "Rasakan sensasi camping di gunung dengan perjalanan pendakian yang menantang. Ideal untuk petualang yang ingin menikmati keindahan alam dari ketinggian.",
       image: b,
     },
     {
       id: 3,
       title: "Paket C",
       description:
-      "Camping dengan tenda yang nyaman dan menikmati makan malam di bawah langit malam. Sempurna bagi yang ingin bersantai sambil menikmati alam dengan sedikit sentuhan kemewahan.",
+        "Camping dengan tenda yang nyaman dan menikmati makan malam di bawah langit malam. Sempurna bagi yang ingin bersantai sambil menikmati alam dengan sedikit sentuhan kemewahan.",
       image: c,
     },
     {
       id: 4,
       title: "Paket D",
       description:
-      "Pengalaman camping premium di tempat dengan pemandangan menakjubkan, lengkap dengan layanan makan yang disiapkan setiap hari untuk menikmati suasana alam lebih lama.",
+        "Pengalaman camping premium di tempat dengan pemandangan menakjubkan, lengkap dengan layanan makan yang disiapkan setiap hari untuk menikmati suasana alam lebih lama.",
       image: d,
     },
     {
       id: 5,
       title: "Paket E",
       description:
-      "Camping eksklusif dengan pengalaman VIP yang memberikan kenyamanan maksimal. Cocok untuk yang ingin menikmati alam tanpa mengorbankan kenyamanan dan kemewahan.",
+        "Camping eksklusif dengan pengalaman VIP yang memberikan kenyamanan maksimal. Cocok untuk yang ingin menikmati alam tanpa mengorbankan kenyamanan dan kemewahan.",
       image: e,
     },
   ];

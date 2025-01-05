@@ -61,7 +61,7 @@ const PindahAlamSections = () => {
       </div>
       {/* paket kami */}
       <div
-        className={`h-auto pt-10 md:pt-10 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700 `}
+        className={`h-auto py-10 md:py-20 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700 `}
       >
         <div className="w-full max-w-6xl px-5 md:px-10">
           <h1 className="text-2xl md:text-4xl font-bold mb-6 text-center text-green-400">
