@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import AboutUs from "./AboutUs";
 import KegiatanMasyarakat from "./KegiatanMasyarakat";
 import ProdukDesa from "./ProdukDesa";
 const AboutSections = () => {
+  useEffect(() => {
+    // Scroll to the top when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       {/* about us */}

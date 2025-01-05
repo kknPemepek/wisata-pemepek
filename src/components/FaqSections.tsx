@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type FAQItem = {
   question: string;
@@ -148,6 +148,10 @@ const FaqSections = () => {
   const toggleFAQ = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+  useEffect(() => {
+    // Scroll to the top when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="bg-gray-100 min-h-screen flex justify-center py-28">

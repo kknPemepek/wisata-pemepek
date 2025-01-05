@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import a from "../assets/pindahAlam/A.jpeg";
-import b from "../assets/pindahAlam/B.jpeg";
-import c from "../assets/pindahAlam/C.jpeg";
-import d from "../assets/pindahAlam/D.jpeg";
-import e from "../assets/pindahAlam/E.jpeg";
+import a from "../../assets/pindahAlam/A.jpeg";
+import b from "../../assets/pindahAlam/B.jpeg";
+import c from "../../assets/pindahAlam/C.jpeg";
+import d from "../../assets/pindahAlam/D.jpeg";
+import e from "../../assets/pindahAlam/E.jpeg";
 interface Package {
   id: number;
   title: string;
@@ -115,7 +115,7 @@ const PaketLiburan: React.FC = () => {
             <img
               src={selectedPackage.image}
               alt={selectedPackage.title}
-              className="w-full max-h-[600px] md:max-h-[800px]  rounded-t-lg"
+              className="w-full max-h-[80vh] md:max-h-[80vh] rounded-t-lg"
             />
             <div className="p-6 bg-white">
               <h2 className="text-base md:text-xl font-semibold text-green-400">

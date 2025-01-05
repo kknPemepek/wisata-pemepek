@@ -1,9 +1,9 @@
 import { useState } from "react";
-import pa1 from "../assets/pindahAlam/pa1.jpeg";
-import pa2 from "../assets/pindahAlam/pa2.jpeg";
-import pa3 from "../assets/pindahAlam/pa3.jpeg";
-import pa4 from "../assets/pindahAlam/pa4.jpeg";
-import pa5 from "../assets/pindahAlam/pa5.jpeg";
+import pa1 from "../../assets/pindahAlam/pa1.jpeg";
+import pa2 from "../../assets/pindahAlam/pa2.jpeg";
+import pa3 from "../../assets/pindahAlam/pa3.jpeg";
+import pa4 from "../../assets/pindahAlam/pa4.jpeg";
+import pa5 from "../../assets/pindahAlam/pa5.jpeg";
 
 const ImageGallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -72,7 +72,7 @@ const ImageGallery: React.FC = () => {
             <img
               src={selectedImage}
               alt="Selected Gallery Image"
-              className="w-full max-h-[600px] md:max-h-[800px] rounded-lg"
+              className="w-full max-h-[80vh] md:max-h-[80vh] rounded-lg"
             />
           </div>
         </div>

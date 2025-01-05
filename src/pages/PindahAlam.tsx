@@ -1,7 +1,6 @@
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
-import PindahAlamSections from "../components/PindahAlamSections"
-
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import PindahAlamSections from "../components/PAcomp/PindahAlamSections";
 
 const PindahAlam = () => {
   return (
@@ -12,7 +11,7 @@ const PindahAlam = () => {
       </div>
       {/* content */}
       <div className="">
-        <PindahAlamSections/>
+        <PindahAlamSections />
       </div>
       <div>
         <footer className="">
@@ -20,7 +19,7 @@ const PindahAlam = () => {
         </footer>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PindahAlam
+export default PindahAlam;

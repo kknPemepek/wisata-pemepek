@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import PAFasilitas from "./PAFasilitas";
 import PAGallerySection from "./PAGallerySection";
 import PaketLiburan from "./PaketLiburan";
 import PindahAlamProfile from "./PindahAlamProfile";
 
 const PindahAlamSections = () => {
+  useEffect(() => {
+    // Scroll to the top when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div
@@ -37,7 +42,7 @@ const PindahAlamSections = () => {
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="flex w-full justify-center">
-          <PAGallerySection/>
+            <PAGallerySection />
           </div>
         </div>
       </div>
@@ -55,7 +60,7 @@ const PindahAlamSections = () => {
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="flex w-full justify-center">
-          <PAFasilitas/>
+            <PAFasilitas />
           </div>
         </div>
       </div>
@@ -73,7 +78,7 @@ const PindahAlamSections = () => {
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="flex w-full justify-center">
-          <PaketLiburan/>
+            <PaketLiburan />
           </div>
         </div>
       </div>
