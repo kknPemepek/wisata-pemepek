@@ -152,7 +152,7 @@ const FaqSections = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex justify-center py-28">
       <div className="container mx-auto max-w-6xl px-6">
-        <h1 className="text-4xl font-bold text-center text-green-400  mb-10">
+        <h1 className="text-xl md:text-2xl font-bold text-center text-green-400  mb-10">
           Frequently Asked Questions
         </h1>
 

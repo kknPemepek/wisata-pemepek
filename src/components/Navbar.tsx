@@ -65,7 +65,7 @@ const Navbar = () => {
       }`}
     >
       {/* Logo */}
-      <div onClick={() => navigate("/wisata-pemepek")} className="cursor-pointer">
+      <div onClick={() => navigate("/wisata-pemepek/")} className="cursor-pointer">
         <img className="w-14 bg-red-300" src={logo} alt="" />
       </div>
 

@@ -9,7 +9,7 @@ const ProdukDesa = () => {
         <h1 className="text-xl md:text-2xl font-semibold mb-3 text-green-800">
           Produk Lokal Desa Pemepek
         </h1>
-        <p className="element-scroll  lg:h-[269px] overflow-auto text-gray-600 text-sm md:text-base">
+        <p className="element-scroll  lg:h-[340px] overflow-auto text-gray-600 text-sm md:text-base">
           Desa Pemepek memiliki beragam produk lokal yang mencerminkan kekayaan
           alam dan budaya masyarakatnya. Sebagai desa yang mayoritas penduduknya
           berprofesi sebagai petani, hasil bumi menjadi salah satu andalan
