@@ -1,11 +1,11 @@
 import { FaTrash, FaBolt, FaWater, FaMosque, FaToilet } from "react-icons/fa";
-const PAFasilitas = () => {
+const FasilitasWisata = () => {
   interface Fasilitas {
     id: number;
     title: string;
     description: string;
-    image: string;
-    icon:() => JSX.Element
+
+    icon: () => JSX.Element;
   }
   const fasilitas: Fasilitas[] = [
     {
@@ -13,8 +13,7 @@ const PAFasilitas = () => {
       title: "Trash",
       description:
         "Fasilitas tempat sampah yang tersedia untuk menjaga kebersihan lingkungan dan mendukung pengelolaan sampah yang lebih baik.",
-      image:
-        "https://images.unsplash.com/photo-1655574105050-7ce22c2ba1f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHx0cmFzaHxlbnwwfHwwfHx8MA%3D%3D",
+
       icon: () => <FaTrash className="text-green-700 w-11 h-11" />,
     },
     {
@@ -22,8 +21,7 @@ const PAFasilitas = () => {
       title: "Listrik",
       description:
         "Fasilitas listrik yang tersedia mendukung operasional serta memberikan kenyamanan bagi pengguna fasilitas umum.",
-      image:
-        "https://images.unsplash.com/photo-1655574105050-7ce22c2ba1f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHx0cmFzaHxlbnwwfHwwfHx8MA%3D%3D",
+
       icon: () => <FaBolt className="text-yellow-500 w-11 h-11" />,
     },
     {
@@ -31,8 +29,7 @@ const PAFasilitas = () => {
       title: "Air",
       description:
         "Fasilitas air bersih untuk memenuhi kebutuhan pengguna, memastikan kenyamanan dan kesehatan lingkungan.",
-      image:
-        "https://images.unsplash.com/photo-1655574105050-7ce22c2ba1f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHx0cmFzaHxlbnwwfHwwfHx8MA%3D%3D",
+
       icon: () => <FaWater className="text-blue-500 w-11 h-11" />,
     },
     {
@@ -40,8 +37,7 @@ const PAFasilitas = () => {
       title: "Mushola",
       description:
         "Fasilitas mushola disediakan untuk mendukung kegiatan ibadah bagi pengguna dengan nyaman dan tenang.",
-      image:
-        "https://images.unsplash.com/photo-1655574105050-7ce22c2ba1f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHx0cmFzaHxlbnwwfHwwfHx8MA%3D%3D",
+
       icon: () => <FaMosque className="text-green-700 w-11 h-11" />,
     },
     {
@@ -49,16 +45,15 @@ const PAFasilitas = () => {
       title: "Toilet",
       description:
         "Fasilitas toilet yang bersih dan nyaman, dirancang untuk mendukung kebutuhan sanitasi pengguna.",
-      image:
-        "https://images.unsplash.com/photo-1655574105050-7ce22c2ba1f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHx0cmFzaHxlbnwwfHwwfHx8MA%3D%3D",
+
       icon: () => <FaToilet className="text-gray-500 w-11 h-11" />,
     },
   ];
-  
+
   return (
     <>
-      <div className="sm:px-8 lg:px-16">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {fasilitas.map((item) => (
             <div
               key={item.id}
@@ -85,4 +80,4 @@ const PAFasilitas = () => {
   );
 };
 
-export default PAFasilitas;
+export default FasilitasWisata;

@@ -1,8 +1,9 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import PindahAlamSections from "../components/PindahAlamSections";
+import Footer from "../components/Footer"
+import LembahDatuSection from "../components/LembahDatuSection"
+import Navbar from "../components/Navbar"
 
-const PindahAlam = () => {
+
+const LembahDatu = () => {
   return (
     <div>
       {/* Navbar */}
@@ -11,7 +12,7 @@ const PindahAlam = () => {
       </div>
       {/* content */}
       <div className="">
-        <PindahAlamSections />
+        <LembahDatuSection/>
       </div>
       <div>
         <footer className="">
@@ -19,7 +20,7 @@ const PindahAlam = () => {
         </footer>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PindahAlam;
+export default LembahDatu
