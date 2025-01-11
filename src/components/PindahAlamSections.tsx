@@ -19,9 +19,11 @@ import PaketWisata from "./PaketWisata";
 import LokasiWisata from "./LokasiWisata";
 import AktivitasWisata from "./AktivitasWisata";
 
-import { FaCampground,  FaMountainSun } from "react-icons/fa6";
+import { FaCampground, FaMountainSun, FaYoutube } from "react-icons/fa6";
 import { FaCameraRetro } from "react-icons/fa";
 import { MdOutlinePool } from "react-icons/md";
+
+import vlogTumbnail from "../assets/vlog_tumbnail.png";
 import {
   Package,
   activity,
@@ -113,8 +115,7 @@ const PindahAlamSections = () => {
 
   const lokasi: located[] = [
     {
-      sumber:
-        `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.392198459638!2d116.26420527613372!3d-8.57392025815264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc9004d6a0d61%3A0x2617d50aa0703ee8!2sPindah%20Alam%20Camping%20Ground!5e1!3m2!1sid!2sid!4v1736522502622!5m2!1sid!2sid`,
+      sumber: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.392198459638!2d116.26420527613372!3d-8.57392025815264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc9004d6a0d61%3A0x2617d50aa0703ee8!2sPindah%20Alam%20Camping%20Ground!5e1!3m2!1sid!2sid!4v1736522502622!5m2!1sid!2sid`,
       title: "Pindah Alam",
       desc: `Wisata Pindah Alam yang terletak di Dusun Cerorong Selatan, Desa Pemepek, Kecamatan Pringgarata, Kabupaten Lombok Tengah, merupakan destinasi yang menawarkan keindahan alam khas pedesaan dengan suasana tenang dan udara segar. Dikelilingi oleh hamparan sawah, perbukitan, serta pepohonan hijau, tempat ini menjadi pilihan ideal untuk bersantai dan melepas penat dari hiruk-pikuk perkotaan. Wisatawan dapat menikmati berbagai kegiatan seperti berfoto di spot-spot dengan latar belakang alam yang indah, bersantai di gazebo yang tersedia, atau mengadakan piknik bersama keluarga. Selain itu, lokasi ini juga memiliki potensi untuk aktivitas camping, memberikan pengalaman wisata yang lebih mendalam. Dengan akses yang relatif mudah, Pindah Alam menjadi salah satu destinasi wisata yang cocok untuk menikmati keindahan dan ketenangan alam Lombok Tengah.`,
     },
@@ -157,7 +158,8 @@ const PindahAlamSections = () => {
             Aktivitas Kami
           </h1>
           <p className="text-center text-slate-500 mb-6 text-sm md:text-base">
-          Pindah Alam adalah destinasi wisata yang menawarkan keindahan alam, udara yang segar, serta suasana yang tenang dan menenangkan
+            Pindah Alam adalah destinasi wisata yang menawarkan keindahan alam,
+            udara yang segar, serta suasana yang tenang dan menenangkan
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="w-full">
@@ -182,7 +184,8 @@ const PindahAlamSections = () => {
             Gallery Kami
           </h1>
           <p className="text-center text-slate-500 mb-6 text-sm md:text-base">
-          Pindah Alam merupakan destinasi wisata yang menghadirkan keindahan alam, udara segar, serta ketenangan yang menyejukkan jiwa
+            Pindah Alam merupakan destinasi wisata yang menghadirkan keindahan
+            alam, udara segar, serta ketenangan yang menyejukkan jiwa
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="w-full">
@@ -198,7 +201,9 @@ const PindahAlamSections = () => {
             Fasilitas Kami
           </h1>
           <p className="text-center text-slate-500 mb-6 text-sm md:text-base">
-          Pindah Alam menyediakan berbagai fasilitas untuk menunjang kenyamanan Anda menikmati keindahan alam, udara segar, dan ketenangan yang ditawarkan
+            Pindah Alam menyediakan berbagai fasilitas untuk menunjang
+            kenyamanan Anda menikmati keindahan alam, udara segar, dan
+            ketenangan yang ditawarkan
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="w-full">
@@ -214,7 +219,9 @@ const PindahAlamSections = () => {
             Paket Kami
           </h1>
           <p className="text-center text-slate-500 mb-6 text-sm md:text-base">
-          Pindah Alam menawarkan berbagai paket wisata yang dirancang untuk memberikan pengalaman menikmati keindahan alam, udara segar, dan ketenangan secara maksimal
+            Pindah Alam menawarkan berbagai paket wisata yang dirancang untuk
+            memberikan pengalaman menikmati keindahan alam, udara segar, dan
+            ketenangan secara maksimal
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="w-full">
@@ -223,13 +230,14 @@ const PindahAlamSections = () => {
         </div>
       </div>
       {/* Lokasi Wisata */}
-      <div className="h-auto py-10 md:py-20 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700">
+      <div className="h-auto pt-10 md:pt-20 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700">
         <div className="w-full max-w-6xl px-5 md:px-10">
           <h1 className="text-2xl md:text-4xl font-bold mb-6 text-center text-green-400">
             Lokasi Kami
           </h1>
           <p className="text-center text-slate-500 mb-6 text-sm md:text-base">
-          Pindah Alam terletak di lokasi yang strategis, dikelilingi oleh keindahan alam, udara segar, dan suasana yang penuh ketenangan.
+            Pindah Alam terletak di lokasi yang strategis, dikelilingi oleh
+            keindahan alam, udara segar, dan suasana yang penuh ketenangan.
           </p>
           <hr className="border-t border-green-400 mb-8" />
           <div className="w-full">
@@ -242,6 +250,46 @@ const PindahAlamSections = () => {
                 />
               );
             })}
+          </div>
+        </div>
+      </div>
+      {/* Vlog */}
+      <div className="h-auto pb-20 md:pt-5 lg:pt-10 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700">
+        <div className="w-full max-w-6xl px-5 md:px-10">
+          <div className="w-full">
+            <div className="grid sm:grid-cols-1 md:grid-cols-1  lg:grid-cols-2 lg:space-y-0 lg:space-x-5">
+              <div className="mt-4 md:mt-0">
+                <h1 className="text-xl md:text-2xl font-semibold mb-3 text-green-800">
+                  Vlog Wisata KKN Pemepek
+                </h1>
+                <p className="element-scroll lg:h-[245px] overflow-auto text-gray-600 text-sm md:text-base">
+                  Cari tahu lebih banyak tentang lokasi ini! Kunjungi vlog kami
+                  untuk melihat pengalaman seru dan pemandangan memukau yang
+                  tersembunyi. Temukan keindahan alam, aktivitas seru, dan
+                  cerita menarik yang tidak boleh Anda lewatkan. Jangan lupa
+                  untuk menonton hingga akhir dan bagikan momen favorit Anda
+                  bersama kami!
+                </p>
+              </div>
+              <div className="lg:pt-0 pt-3  ">
+                <span className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 items-center shadow-md">
+                  <span className="w-full h- rounded-md relative cursor-pointer shrink-0">
+                    {/* Tambahkan overlay gelap */}
+                    <div className="absolute inset-0 bg-black bg-opacity-20 hover:bg-opacity-30 rounded-md"></div>
+                    <img
+                      className="w-full h-full rounded-md object-cover"
+                      src={vlogTumbnail}
+                      alt="Thumbnail Vlog"
+                    />
+                    <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                      <FaYoutube className="text-6xl text-red-700 drop-shadow-[0_0_5px_rgba(255,255,255,0.8)]" />
+                    </span>
+                  </span>
+                
+                </span>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
