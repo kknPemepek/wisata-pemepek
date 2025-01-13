@@ -9,6 +9,7 @@ const Navbar = () => {
   const path = window.location.pathname;
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
+  const [currentPath, setCurrentPath] = useState("");
   const [scrollTimeout, setScrollTimeout] = useState<number | null>(null);
 
   const itemNav = [
@@ -24,10 +25,26 @@ const Navbar = () => {
       item: "FAQ",
       to: "/wisata-pemepek/faq",
     },
+    {
+      item: "Wisata",
+      to: "/wisata-pemepek/wisata",
+    },
   ];
+
+  const cekPath = () => {
+    if (path === "/wisata-pemepek/pindah-alam") {
+      setCurrentPath("/wisata-pemepek/wisata");
+    } else if (path === "/wisata-pemepek/lembah-datu") {
+      setCurrentPath("/wisata-pemepek/wisata");
+    } else if (path === "/wisata-pemepek/wisata-kelicung") {
+      setCurrentPath("/wisata-pemepek/wisata");
+    }
+  };
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
+    cekPath();
+    console.log(currentPath);
 
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
@@ -56,7 +73,7 @@ const Navbar = () => {
         clearTimeout(scrollTimeout);
       }
     };
-  }, [scrollTimeout]);
+  }, [scrollTimeout, currentPath]);
 
   return (
     <div
@@ -65,7 +82,10 @@ const Navbar = () => {
       }`}
     >
       {/* Logo */}
-      <div onClick={() => navigate("/wisata-pemepek/")} className="cursor-pointer">
+      <div
+        onClick={() => navigate("/wisata-pemepek/")}
+        className="cursor-pointer"
+      >
         <img className="w-14 bg-red-300" src={logo} alt="" />
       </div>
 
@@ -76,8 +96,12 @@ const Navbar = () => {
             <li
               onClick={() => navigate(item.to)}
               className={`cursor-pointer text-sm md:text-base hover:text-green-400 hover:scale-110 transition-transform ${
-                path === item.to ? "text-green-400" : ""
-              }`}
+                path === item.to
+                  ? "text-green-400"
+                  : currentPath === item.to
+                  ? "text-green-400"
+                  : ""
+              } `}
               key={index}
             >
               {item.item}
@@ -123,7 +147,11 @@ const Navbar = () => {
                   setMenuOpen(false);
                 }}
                 className={`cursor-pointer px-4 py-2 hover:bg-green-50 hover:text-green-400 transition-colors duration-300 ease-in-out ${
-                  path === item.to ? "text-green-400" : "text-gray-700"
+                  path === item.to
+                    ? "text-green-400"
+                    : currentPath === item.to
+                    ? "text-green-400"
+                    : ""
                 }`}
                 key={index}
               >

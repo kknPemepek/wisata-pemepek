@@ -5,6 +5,7 @@ import Tentang from "./pages/Tentang";
 import Faq from "./pages/Faq";
 import PindahAlam from "./pages/PindahAlam";
 import LembahDatu from "./pages/LembahDatu";
+import Wisata from "./pages/Wisata";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/wisata-pemepek/faq" element={<Faq />} />
         <Route path="/wisata-pemepek/pindah-alam" element={<PindahAlam />} />
         <Route path="/wisata-pemepek/lembah-datu" element={<LembahDatu />} />
+        <Route path="/wisata-pemepek/wisata" element={<Wisata />} />
       </Routes>
     </div>
   );
