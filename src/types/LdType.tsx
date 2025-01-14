@@ -43,34 +43,30 @@ export const aktivitas: activity[] = [
   {
     title: "Camping",
     desc: "Camping di Lembah Datu adalah aktivitas berkemah di alam terbuka, dikelilingi hutan tropis dan pegunungan, dengan pemandangan indah dan udara segar.",
-
-    icon: () => <FaCampground className="text-green-700 w-11 h-11" />,
+    icon: () => <FaCampground className="text-green-600 w-11 h-11" />, 
   },
   {
     title: "Hiking",
     desc: "Hiking di Lembah Datu adalah kegiatan berjalan di jalur alam, menelusuri hutan tropis dan pegunungan, sambil menikmati pemandangan indah.",
-
-    icon: () => <FaPersonHiking className="text-yellow-500 w-11 h-11" />,
+    icon: () => <FaPersonHiking className="text-yellow-600 w-11 h-11" />, 
   },
   {
     title: "Water Adventures",
     desc: `Main air di sungai yang jernih atau bersantai di tepi air sungai Lembah Datu. Kesegaran alam yang tak terlupakan menanti!`,
-
-    icon: () => <FaWater className="text-blue-500 w-11 h-11" />,
+    icon: () => <FaWater className="text-blue-400 w-11 h-11" />, 
   },
   {
     title: "Photography",
     desc: `Bawa kamera Anda dan abadikan momen terbaik di surga tersembunyi Lembah Datu! Setiap sudutnya adalah karya seni alam`,
-
-    icon: () => <FaCameraRetro className="text-blue-700 w-11 h-11" />,
+    icon: () => <FaCameraRetro className="text-purple-500 w-11 h-11" />, 
   },
   {
     title: "Rappelling",
     desc: `Nikmati sensasi menuruni tebing di Lembah Datu! Rasakan petualangan seru sambil mengabadikan keindahan alamnya`,
-
-    icon: () => <GiHiking className="text-amber-800 w-11 h-11" />,
+    icon: () => <GiHiking className="text-red-600 w-11 h-11" />, 
   },
 ];
+
 
 export const profilWisata: ProfilWisataProps[] = [
   {
