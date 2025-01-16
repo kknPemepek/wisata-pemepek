@@ -75,7 +75,7 @@ const PaketWisata: React.FC<PaketWisataProps> = ({ packages }) => {
             <img
               src={selectedPackage.image[0]} 
               alt={selectedPackage.title}
-              className="w-full max-h-[60vh] md:max-h-[60vh] rounded-t-lg"
+              className="w-full max-h-[80vh] md:max-h-[80vh] rounded-t-lg"
             />
             <div className="p-6 bg-white">
               <h2 className="text-base md:text-xl font-semibold text-green-400">
