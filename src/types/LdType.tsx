@@ -28,12 +28,12 @@ import ld13 from "../assets/lembahDatu/ld13.jpg";
 import ld14 from "../assets/lembahDatu/ld14.jpg";
 import ld15 from "../assets/lembahDatu/ld15.jpg";
 
-import a from "../assets/lembahDatu/pk1.jpeg";
-import b from "../assets/lembahDatu/pk2.jpeg";
-import c from "../assets/lembahDatu/pk3.jpeg";
-import d from "../assets/lembahDatu/pk4.jpeg";
-import e from "../assets/lembahDatu/pk5.jpeg";
-import f from "../assets/lembahDatu/pk6.jpeg";
+import a from "../assets/lembahDatu/pk1.png";
+import b from "../assets/lembahDatu/pk2.png";
+import c from "../assets/lembahDatu/pk3.png";
+import d from "../assets/lembahDatu/pk4.png";
+import e from "../assets/lembahDatu/pk5.png";
+import f from "../assets/lembahDatu/pk6.png";
 import g from "../assets/lembahDatu/pk7.jpeg";
 import h from "../assets/lembahDatu/pk8.jpeg";
 import i from "../assets/lembahDatu/pk9.jpeg";
