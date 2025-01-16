@@ -1,5 +1,5 @@
-import { FaCameraRetro, FaCampground,  FaBookOpenReader, FaPersonHiking } from "react-icons/fa6";
-import { activity, ProfilWisataProps } from "./type";
+import { FaCameraRetro, FaCampground,  FaBookOpenReader, FaPersonHiking, FaTrash, FaToilet } from "react-icons/fa6";
+import { activity, fasility, located, ProfilWisataProps } from "./type";
 import { GiMeditation } from "react-icons/gi";
 import { GrWorkshop } from "react-icons/gr";
 
@@ -21,6 +21,7 @@ import wk15 from '../assets/wisataKelicung/wk15.jpeg'
 import wk16 from '../assets/wisataKelicung/wk16.jpeg'
 import wk17 from '../assets/wisataKelicung/wk17.jpeg'
 import wk18 from '../assets/wisataKelicung/wk18.jpeg'
+import { FaHandHoldingWater } from "react-icons/fa";
 
 export const profilWisata: ProfilWisataProps[] = [
   {
@@ -97,3 +98,37 @@ export const galleryImages = [
   wk16,
   wk17,
   wk18,]
+
+  export const lokasi: located[] = [
+    {
+      sumber: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20384.46379291289!2d116.2933815!3d-8.559401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc9c440459a1d%3A0xc88b73bbcd5aab1!2sKHDTK%20Rarung!5e1!3m2!1sid!2sid!4v1736853405116!5m2!1sid!2sid`,
+      title: "Wisata Kelicung",
+      desc: `Wisata Kelicung terletak di Dusun Rarung, Desa Pemepek, kawasan yang tenang dan alami. Dikelilingi pohon kelicung yang rindang, lokasi ini menjadi habitat berbagai satwa, termasuk rusa. Keasrian dan keanekaragaman hayati membuatnya cocok untuk bersantai dan menikmati alam.
+
+Pengunjung dapat menikmati udara segar, trekking ringan, atau sekadar duduk di bawah pepohonan sambil mendengar suara alam. Tersedia fasilitas sederhana seperti gazebo, area bermain anak, dan tempat perkemahan. Selain itu, pengunjung bisa melihat langsung rusa di habitatnya dan membeli produk lokal dari masyarakat sekitar. Wisata Kelicung adalah tempat ideal untuk rekreasi sekaligus belajar mencintai alam`,
+    },
+  ];
+  
+  export const fasilitas: fasility[] = [
+    {
+      title: "Trash",
+      desc: "Fasilitas tempat sampah yang tersedia untuk menjaga kebersihan lingkungan dan mendukung pengelolaan sampah yang lebih baik.",
+  
+      icon: () => <FaTrash className="text-green-700 w-11 h-11" />,
+    },
+  
+    {
+      title: "Air",
+      desc: "Fasilitas air bersih untuk memenuhi kebutuhan pengguna, memastikan kenyamanan dan kesehatan lingkungan.",
+  
+      icon: () => <FaHandHoldingWater  className="text-blue-500 w-11 h-11" />,
+    },
+    
+    {
+      title: "Toilet",
+      desc: "Fasilitas toilet yang bersih dan nyaman, dirancang untuk mendukung kebutuhan sanitasi pengguna.",
+  
+      icon: () => <FaToilet className="text-gray-500 w-11 h-11" />,
+    },
+   
+  ];

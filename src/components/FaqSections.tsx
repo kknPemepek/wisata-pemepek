@@ -9,12 +9,12 @@ const faqData: FAQItem[] = [
   {
     question: "Di mana lokasi Desa Pemepek?",
     answer:
-      "Desa Pemepek terletak di Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
+      "Desa Pemepek terletak di Kecamatan Pringgarata, Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
   },
   {
     question: "Di mana lokasi Wisata Kelicung?",
     answer:
-      "Wisata Kelicung terletak di Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
+      "Wisata Kelicung terletak di Dusun Rarung, Desa Pemepek, Kecamatan Pringgarata, Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
   },
   {
     question: "Apa yang bisa dilakukan di Wisata Kelicung?",
@@ -56,7 +56,7 @@ const faqData: FAQItem[] = [
   {
     question: "Di mana lokasi Camping Ground Lembah Datu?",
     answer:
-      "Camping Ground Lembah Datu berada di kawasan alam Kabupaten Lombok Tengah, dikelilingi pemandangan yang asri.",
+      "Camping Ground Lembah Datu terletak di kawasan alam Kabupaten Lombok Tengah, tepatnya di Dusun Gelogor, Desa Pemepek. Lokasi ini dikelilingi oleh pemandangan yang asri dan menenangkan.",
   },
   {
     question: "Apa yang bisa dilakukan di Camping Ground Lembah Datu?",
@@ -98,7 +98,7 @@ const faqData: FAQItem[] = [
   {
     question: "Di mana lokasi Camping Ground Pindah Alam?",
     answer:
-      "Camping Ground Pindah Alam berada di kawasan Desa Pemepek, Kabupaten Lombok Tengah.",
+      "Camping Ground Pindah Alam berada di kawasan Dusun Cerorong Selatan, Desa Pemepek, Kabupaten Lombok Tengah.",
   },
   {
     question: "Apa yang bisa dilakukan di Camping Ground Pindah Alam?",
@@ -108,7 +108,7 @@ const faqData: FAQItem[] = [
   {
     question: "Bagaimana cara menuju Camping Ground Pindah Alam?",
     answer:
-      "Jalur menuju lokasi dapat ditempuh sekitar 30 menit dari pusat Desa Pemepek dengan kendaraan pribadi.",
+      "Jalur menuju lokasi dapat ditempuh sekitar 15 menit dari pusat Desa Pemepek dengan kendaraan pribadi.",
   },
   {
     question: "Apakah Camping Ground Pindah Alam menyediakan fasilitas toilet?",

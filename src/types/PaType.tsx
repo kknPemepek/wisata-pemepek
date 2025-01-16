@@ -12,11 +12,11 @@ import pa3 from "../assets/pindahAlam/pa3.jpeg";
 import pa4 from "../assets/pindahAlam/pa4.jpeg";
 import pa5 from "../assets/pindahAlam/pa5.jpeg";
 
-import a from "../assets/pindahAlam/A.jpeg";
-import b from "../assets/pindahAlam/B.jpeg";
-import c from "../assets/pindahAlam/C.jpeg";
-import d from "../assets/pindahAlam/D.jpeg";
-import e from "../assets/pindahAlam/E.jpeg";
+import a from "../assets/pindahAlam/A.png";
+import b from "../assets/pindahAlam/B.png";
+import c from "../assets/pindahAlam/C.png";
+import d from "../assets/pindahAlam/D.png";
+import e from "../assets/pindahAlam/E.png";
 
 export const profilWisata: ProfilWisataProps[] = [
   {
