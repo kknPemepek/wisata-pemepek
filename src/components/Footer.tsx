@@ -7,14 +7,15 @@ const Footer = () => {
       id: 1,
       title: "Pindah Alam",
       ig: "https://www.instagram.com/pindahalam_official?igsh=MXRnbmxvcTZ4MzFhbw==",
-      wa: "https://wa.me/6287865724936?text=Halo%20Pindah%20Alam"
+      wa: "https://wa.me/6287865724936"
     },
     {
       id: 2,
       title: "Lembah Datu",
       ig: "https://www.instagram.com/lembah.datu.official?igsh=dWM4YnczaTczZjUz",
+      wa: "https://wa.me/6287784953303"
     },
-    { id: 3, title: "Wisata Klicung" },
+    { id: 3, title: "Wisata Klicung",wa: "https://wa.me/6287823188689" },
   ];
 
   return (
