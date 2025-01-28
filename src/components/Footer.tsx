@@ -7,6 +7,7 @@ const Footer = () => {
       id: 1,
       title: "Pindah Alam",
       ig: "https://www.instagram.com/pindahalam_official?igsh=MXRnbmxvcTZ4MzFhbw==",
+      wa:'https://wa.me/ 087865724936'
     },
     {
       id: 2,
@@ -39,6 +40,7 @@ const Footer = () => {
                 className="text-blue-600 transition duration-200 cursor-pointer"
               />
               <FaWhatsapp
+              onClick={() => window.open(item.wa, "_blank")}
                 size={20}
                 className="text-green-500 transition duration-200 cursor-pointer"
               />
