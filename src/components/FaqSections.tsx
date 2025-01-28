@@ -12,44 +12,44 @@ const faqData: FAQItem[] = [
       "Desa Pemepek terletak di Kecamatan Pringgarata, Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
   },
   {
-    question: "Di mana lokasi Wisata Kelicung?",
+    question: "Di mana lokasi KHDTK Rarung?",
     answer:
-      "Wisata Kelicung terletak di Dusun Rarung, Desa Pemepek, Kecamatan Pringgarata, Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
+      "KHDTK Rarung terletak di Dusun Rarung, Desa Pemepek, Kecamatan Pringgarata, Kabupaten Lombok Tengah, Provinsi Nusa Tenggara Barat, Indonesia.",
   },
   {
-    question: "Apa yang bisa dilakukan di Wisata Kelicung?",
+    question: "Apa yang bisa dilakukan di KHDTK Rarung?",
     answer:
-      "Wisata Kelicung adalah tempat yang cocok untuk menikmati keindahan alam, belajar tentang ekosistem, dan mengenal flora serta fauna setempat.",
+      "KHDTK Rarung adalah tempat yang cocok untuk menikmati keindahan alam, belajar tentang ekosistem, dan mengenal flora serta fauna setempat.",
   },
   {
-    question: "Bagaimana cara menuju Wisata Kelicung?",
+    question: "Bagaimana cara menuju KHDTK Rarung?",
     answer:
-      "Anda bisa menuju Wisata Kelicung dengan kendaraan pribadi atau angkutan lokal dari pusat Desa Pemepek dengan waktu tempuh sekitar 20 menit.",
+      "Anda bisa menuju KHDTK Rarung dengan kendaraan pribadi atau angkutan lokal dari pusat Desa Pemepek dengan waktu tempuh sekitar 20 menit.",
   },
   {
-    question: "Apakah Wisata Kelicung cocok untuk keluarga?",
+    question: "Apakah KHDTK Rarung cocok untuk keluarga?",
     answer:
-      "Ya, Wisata Kelicung sangat cocok untuk keluarga, terutama yang ingin menikmati suasana tenang dan belajar bersama tentang alam.",
+      "Ya, KHDTK Rarung sangat cocok untuk keluarga, terutama yang ingin menikmati suasana tenang dan belajar bersama tentang alam.",
   },
   {
-    question: "Apakah Wisata Kelicung menyediakan fasilitas toilet?",
+    question: "Apakah KHDTK Rarung menyediakan fasilitas toilet?",
     answer:
-      "Ya, Wisata Kelicung menyediakan fasilitas toilet umum untuk kenyamanan pengunjung.",
+      "Ya, KHDTK Rarung menyediakan fasilitas toilet umum untuk kenyamanan pengunjung.",
   },
   {
-    question: "Kapan waktu terbaik untuk mengunjungi Wisata Kelicung?",
+    question: "Kapan waktu terbaik untuk mengunjungi KHDTK Rarung?",
     answer:
-      "Waktu terbaik untuk mengunjungi Wisata Kelicung adalah pada musim kemarau, antara bulan April hingga Oktober, agar perjalanan lebih nyaman.",
+      "Waktu terbaik untuk mengunjungi KHDTK Rarung adalah pada musim kemarau, antara bulan April hingga Oktober, agar perjalanan lebih nyaman.",
   },
   {
-    question: "Apakah ada warung makan di Wisata Kelicung?",
+    question: "Apakah ada warung makan di KHDTK Rarung?",
     answer:
-      "Ya, terdapat beberapa warung makan yang menyajikan makanan lokal untuk para pengunjung Wisata Kelicung.",
+      "Ya, terdapat beberapa warung makan yang menyajikan makanan lokal untuk para pengunjung KHDTK Rarung.",
   },
   {
-    question: "Apakah Wisata Kelicung menyediakan fasilitas edukasi?",
+    question: "Apakah KHDTK Rarung menyediakan fasilitas edukasi?",
     answer:
-      "Ya, Wisata Kelicung memiliki program edukasi seperti pengenalan ekosistem sungai dan pentingnya pelestarian lingkungan.",
+      "Ya, KHDTK Rarung memiliki program edukasi seperti pengenalan ekosistem sungai dan pentingnya pelestarian lingkungan.",
   },
   
   // Camping Ground Lembah Datu

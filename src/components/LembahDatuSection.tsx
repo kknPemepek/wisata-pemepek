@@ -10,7 +10,7 @@ import {
   lokasi,
   fasilitas,
 } from "../types/LdType";
-
+import reservation from "../assets/pexels-ryutaro-5745045.jpg";
 import FasilitasWisata from "./FasilitasWisata";
 import PaketWisata from "./PaketWisata";
 import LokasiWisata from "./LokasiWisata";
@@ -168,7 +168,7 @@ const LembahDatuSection = () => {
       </div>
       
       {/* vlog */}
-      <div className="h-auto pb-20 md:pt-5 lg:pt-10 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700">
+      <div className="h-auto  md:pt-5 lg:pt-10 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700">
         <div className="w-full max-w-6xl px-5 md:px-10">
           <div className="w-full">
             <div className="grid sm:grid-cols-1 md:grid-cols-1  lg:grid-cols-2 lg:space-y-0 lg:space-x-5">
@@ -200,6 +200,51 @@ const LembahDatuSection = () => {
                     </span>
                   </span>
                 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* reservasi */}
+      <div className="h-auto pb-20 md:pt-5 lg:pt-10 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700">
+        <div className="w-full max-w-6xl px-5 md:px-10">
+          <div className="w-full">
+            <div className="grid sm:grid-cols-1 md:grid-cols-1  lg:grid-cols-2 lg:space-y-0 lg:space-x-5 md:space-x-3">
+              <div className="lg:pt-0 pt-3 hidden  lg:block">
+                <span className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 items-center ">
+                  <span className="w-full relative cursor-pointer ">
+                    <img
+                      className="w-full h-full  object-cover rounded-md shadow-md"
+                      src={reservation}
+                      alt="resrvation"
+                    />
+                  </span>
+                </span>
+              </div>
+              <div className="mt-4 md:mt-0">
+                <h1 className="text-xl md:text-2xl font-semibold mb-3 text-green-800">
+                  Cara Melakukan Reservasi
+                </h1>
+                <p className="element-scroll text-gray-600 text-sm md:text-base">
+                  <p>
+                    1. Pilih hari yang sesuai dengan rencana Anda untuk camping,
+                    baik itu akhir pekan maupun hari libur lainnya
+                  </p>
+                  <p>
+                    2. Lakukan pemesanan minimal beberapa minggu sebelumnya
+                    untuk memastikan ketersediaan tempat camping, terutama di
+                    musim liburan.
+                  </p>
+                  <p>
+                    3. Untuk melakukan booking, silakan hubungi nomor <span className="font-bold">087784953303 </span> 
+                    untuk informasi lebih lanjut dan konfirmasi pemesanan atau DM instagram kami, <span className="font-bold">@lembah.datu.official </span>
+                  </p>
+                  <p>
+                    4. Jangan lupa untuk mengikuti dan memantau sosial media
+                    kami untuk update informasi, promo, dan event terbaru yang
+                    menarik!
+                  </p>
+                </p>
               </div>
             </div>
           </div>

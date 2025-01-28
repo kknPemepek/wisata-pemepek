@@ -24,9 +24,9 @@ const Card = () => {
     },
     {
       id: 3,
-      title: "Wisata Kelicung",
+      title: "KHDTK Rarung",
       description:
-        "Wisata Kelicung menyajikan pemandangan alam menakjubkan, hutan hijau sejuk, serta agrowisata, menawarkan pengalaman budaya dan tradisi lokal yang otentik dan memikat hati",
+        "KHDTK Rarung menyajikan pemandangan alam menakjubkan, hutan hijau sejuk, serta agrowisata, menawarkan pengalaman budaya dan tradisi lokal yang otentik dan memikat hati",
       image:
         "https://res.cloudinary.com/dbuhlpg8k/image/upload/v1735715527/steven-kamenar-MMJx78V7xS8-unsplash_aabycx.jpg",
       navigate: "/wisata-pemepek/wisata-kelicung",

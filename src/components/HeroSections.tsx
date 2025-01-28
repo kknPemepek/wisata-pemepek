@@ -3,8 +3,12 @@ import Carousels from "./Carousels";
 import Card from "./Card";
 import ProfilDesa from "./ProfilDesa";
 import LokasiDesa from "./LokasiDesa";
+import { useEffect } from "react";
 
 const HeroSections = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="pt-20">
       <Carousels />

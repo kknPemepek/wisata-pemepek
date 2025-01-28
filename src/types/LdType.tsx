@@ -34,10 +34,7 @@ import c from "../assets/lembahDatu/pk3.png";
 import d from "../assets/lembahDatu/pk4.png";
 import e from "../assets/lembahDatu/pk5.png";
 import f from "../assets/lembahDatu/pk6.png";
-import g from "../assets/lembahDatu/pk7.jpeg";
-import h from "../assets/lembahDatu/pk8.jpeg";
-import i from "../assets/lembahDatu/pk9.jpeg";
-import j from "../assets/lembahDatu/pk10.jpeg";
+
 
 export const aktivitas: activity[] = [
   {
@@ -132,30 +129,7 @@ export const packages: Package[] = [
 
     image: [f],
   },
-  {
-    id: 7,
-    title: "Paket G",
-
-    image: [g],
-  },
-  {
-    id: 8,
-    title: "Paket H",
-
-    image: [h],
-  },
-  {
-    id: 9,
-    title: "Paket I",
-
-    image: [i],
-  },
-  {
-    id: 10,
-    title: "Paket J",
-
-    image: [j],
-  },
+  
 ];
 
 export const lokasi: located[] = [

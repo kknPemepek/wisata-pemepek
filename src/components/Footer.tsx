@@ -32,15 +32,15 @@ const Footer = () => {
               <FaInstagram
                 onClick={() => window.open(item.ig, "_blank")}
                 size={20}
-                className="hover:text-pink-500 transition duration-200 cursor-pointer "
+                className="text-pink-500 transition duration-200 cursor-pointer "
               />
               <IoLogoFacebook
                 size={20}
-                className="hover:text-blue-600 transition duration-200 cursor-pointer"
+                className="text-blue-600 transition duration-200 cursor-pointer"
               />
               <FaWhatsapp
                 size={20}
-                className="hover:text-green-500 transition duration-200 cursor-pointer"
+                className="text-green-500 transition duration-200 cursor-pointer"
               />
             </div>
           </div>
