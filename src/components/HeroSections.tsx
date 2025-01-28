@@ -18,10 +18,10 @@ const HeroSections = () => {
           className={`h-auto pt-10 md:pt-20 flex flex-col items-center justify-center w-full bg-gray-100 transition-all duration-700 `}
         >
           <div className="w-full max-w-6xl px-5 md:px-10">
-            <h1 className="text-2xl md:text-4xl font-bold mb-6 text-center text-green-400">
+            <h1 className=" text-2xl md:text-4xl font-bold mb-6 text-center text-green-400">
                Desa Pemepek
             </h1>
-            <p className="text-center text-slate-500 mb-6 text-sm md:text-base">
+            <p className=" text-center text-slate-500 mb-6 text-sm md:text-base">
             Surga kecil di bumi dengan pesona alam yang asri dan masyarakat yang ramah
             </p>
             <hr className="border-t border-green-400 mb-8" />

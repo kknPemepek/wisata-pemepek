@@ -8,6 +8,7 @@ import LembahDatu from "./pages/LembahDatu";
 import Wisata from "./pages/Wisata";
 import WisataKelicung from "./pages/WisataKelicung";
 
+
 const App = () => {
   return (
     <div>
