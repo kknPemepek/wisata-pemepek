@@ -7,7 +7,7 @@ const Footer = () => {
       id: 1,
       title: "Pindah Alam",
       ig: "https://www.instagram.com/pindahalam_official?igsh=MXRnbmxvcTZ4MzFhbw==",
-      wa:'https://wa.me/ 087865724936'
+      wa: "https://wa.me/087865724936?text=Halo%20Pindah%20Alam"
     },
     {
       id: 2,
