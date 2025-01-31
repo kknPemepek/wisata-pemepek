@@ -14,19 +14,19 @@ const Navbar = () => {
   const dropdownRef = useRef<HTMLDivElement>(null); // Ref untuk dropdown
 
   const itemNav = [
-    { item: "Beranda", to: "/wisata-pemepek/" },
-    { item: "Tentang ", to: "/wisata-pemepek/tentang" },
-    { item: "FAQ", to: "/wisata-pemepek/faq" },
-    { item: "Wisata", to: "/wisata-pemepek/wisata" },
+    { item: "Beranda", to: "/" },
+    { item: "Tentang ", to: "/tentang" },
+    { item: "FAQ", to: "/faq" },
+    { item: "Wisata", to: "/wisata" },
   ];
 
   const cekPath = () => {
-    if (path === "/wisata-pemepek/pindah-alam") {
-      setCurrentPath("/wisata-pemepek/wisata");
-    } else if (path === "/wisata-pemepek/lembah-datu") {
-      setCurrentPath("/wisata-pemepek/wisata");
-    } else if (path === "/wisata-pemepek/wisata-kelicung") {
-      setCurrentPath("/wisata-pemepek/wisata");
+    if (path === "/pindah-alam") {
+      setCurrentPath("/wisata");
+    } else if (path === "/lembah-datu") {
+      setCurrentPath("/wisata");
+    } else if (path === "/wisata-kelicung") {
+      setCurrentPath("/wisata");
     }
   };
 
@@ -84,7 +84,7 @@ const Navbar = () => {
           isHidden ? "-translate-y-full" : "translate-y-0"
         }`}
       >
-        <div onClick={() => navigate("/wisata-pemepek/")} className="cursor-pointer">
+        <div onClick={() => navigate("/")} className="cursor-pointer">
           <img className="w-14 bg-red-300" src={logo} alt="Logo" />
         </div>
 
