@@ -7,6 +7,7 @@ import {
   FaToilet,
   FaMosque,
   FaBolt,
+  FaLightbulb,
 } from "react-icons/fa6";
 import { activity, fasility, located, ProfilWisataProps } from "./type";
 import { GiMeditation } from "react-icons/gi";
@@ -146,4 +147,10 @@ export const fasilitas: fasility[] = [
     
         icon: () => <FaBolt className="text-yellow-500 w-11 h-11" />,
       },
+       {
+          title: "Penerangan",
+          desc: "Fasilitas penerangan yang terang dan efisien, dirancang untuk mendukung kenyamanan dan keamanan pengguna",
+      
+          icon: () => <FaLightbulb className="text-yellow-400 w-11 h-11" />,
+        },
 ];

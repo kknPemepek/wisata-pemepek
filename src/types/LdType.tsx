@@ -5,7 +5,7 @@ import {
   Package,
   ProfilWisataProps,
 } from "./type";
-import { FaCampground, FaPersonHiking } from "react-icons/fa6";
+import { FaCampground, FaPersonHiking, FaLightbulb } from "react-icons/fa6";
 import { FaCameraRetro, FaWater } from "react-icons/fa";
 import { GiHiking } from "react-icons/gi";
 
@@ -27,6 +27,7 @@ import ld12 from "../assets/lembahDatu/ld12.jpg";
 import ld13 from "../assets/lembahDatu/ld13.jpg";
 import ld14 from "../assets/lembahDatu/ld14.jpg";
 import ld15 from "../assets/lembahDatu/ld15.jpg";
+import ld16 from "../assets/lembahDatu/ld16.jpg";
 
 import a from "../assets/lembahDatu/pk1.png";
 import b from "../assets/lembahDatu/pk2.png";
@@ -95,6 +96,7 @@ export const galleryImages = [
   ld13,
   ld14,
   ld15,
+  ld16,
 ];
 
 export const packages: Package[] = [
@@ -180,5 +182,11 @@ export const fasilitas: fasility[] = [
     desc: "Nikmati akses WiFi gratis dengan koneksi cepat dan stabil, dirancang untuk mendukung kebutuhan Anda selama berada di sini",
 
     icon: () => <IoWifi className="text-yellow-500 w-11 h-11" />,
+  },
+  {
+    title: "Penerangan",
+    desc: "Fasilitas penerangan yang terang dan efisien, dirancang untuk mendukung kenyamanan dan keamanan pengguna",
+
+    icon: () => <FaLightbulb className="text-yellow-400 w-11 h-11" />,
   },
 ];

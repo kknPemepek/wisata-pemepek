@@ -1,4 +1,4 @@
-import { FaCampground, FaMountainSun } from "react-icons/fa6";
+import { FaCampground, FaLightbulb, FaMountainSun } from "react-icons/fa6";
 import { FaCameraRetro } from "react-icons/fa";
 import { MdOutlinePool } from "react-icons/md";
 import { MdFamilyRestroom } from "react-icons/md";
@@ -77,6 +77,12 @@ export const aktivitas: activity[] = [
 
     icon: () => <MdFamilyRestroom className="text-indigo-700 w-11 h-11" />,
   },
+   {
+      title: "Penerangan",
+      desc: "Fasilitas penerangan yang terang dan efisien, dirancang untuk mendukung kenyamanan dan keamanan pengguna",
+  
+      icon: () => <FaLightbulb className="text-yellow-400 w-11 h-11" />,
+    },
 ];
 
 export const galleryImages = [pa1, pa2, pa3, pa4, pa5];

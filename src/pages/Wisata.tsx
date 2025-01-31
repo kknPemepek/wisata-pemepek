@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const Wisata = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
   return (
     <div>
       {/* Navbar */}
